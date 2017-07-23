@@ -1,0 +1,276 @@
+
+body {
+	background-image: url(images/background.png);
+	font-family: arial, Helvetica Neue, helvetica, sans-serif;
+}
+
+nav {
+	background-color: #ffffff;
+	border-color: #cccccc;
+	border-bottom-width:5px;
+	position:fixed;
+	top:0px;
+	width:100%;
+	height:75px;
+	font-size: 15px;
+	box-shadow: 0px 0px 5px black;
+	padding-top: 0px;
+	min-width:500px;
+	margin-bottom:125px;
+	clear:both;
+	z-index: 2;
+}
+
+h1 {
+	font-family: Georgia, Times, Time New Roman, serif;
+	font-weight: bold;
+	background-color: #4aaaa5;
+	display:block;
+	float:left;
+	width:25%;
+	max-width:200px;
+	margin-left:50px;
+	color:white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 30px;;
+	padding-left: 1%;
+	padding-right:1%;
+	height:45px;
+}
+
+ul {
+	margin-right:15%;
+}
+
+li {
+	float:right;
+	display:block;
+	margin-left: 5%;
+	position:relative;
+	margin-top: 30px;
+}
+
+a {
+	text-decoration: none;
+	color:#666666;
+}
+
+a:hover {
+	text-decoration: underline;
+	color:#4aaaa5;
+}
+
+.main {
+	background-color: #ffffff;
+	margin-top: 100px;
+	z-index:-1;
+	float:left;
+	width:550px;
+	margin-left:50px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	padding-left:25px;
+	padding-right: 25px
+}
+
+h2 {
+	font-family: Georgia, Times, Time New Roman, serif;
+	font-weight:bold;	
+	font-size: 20px;
+	color: #4aaaa5;
+	padding-top:10px;
+	margin-bottom: 20px;
+}
+
+hr {
+	background-color:#666666;
+	margin-bottom: 20px;
+}
+
+.block1 {
+	float:left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	position:relative;
+}
+
+.text1 {
+	position:absolute;
+	text-align:center;
+	width:230px;
+	z-index:1;
+	padding:10px;
+	background-color: #4aaaa5;
+	font-family: Georgia, Times, Time New Roman, serif;
+	font-size: 15px;
+	color:white;
+	margin-top:145px;
+}
+
+.block2 {
+	float:right;
+	padding-bottom:20px;
+	position:relative;
+}
+
+.text2 {
+	position:absolute;
+	text-align:center;
+	margin-left:300px;
+	width:230px;
+	z-index:1;
+	padding:10px;
+	background-color: #4aaaa5;
+	font-family: Georgia, Times, Time New Roman, serif;
+	font-size: 15px;
+	color:white;
+	margin-top:145px;
+}
+
+.block3 {
+	float:left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	position:relative;
+}
+
+.text3 {
+	position:absolute;
+	text-align:center;
+	width:230px;
+	z-index:1;
+	padding:10px;
+	background-color: #4aaaa5;
+	font-family: Georgia, Times, Time New Roman, serif;
+	font-size: 15px;
+	color:white;
+	margin-top:355px;
+}
+
+.block4 {
+	float:right;
+	padding-bottom:20px;
+	position:relative;
+}
+
+.text4 {
+	position:absolute;
+	text-align:center;
+	margin-left:300px;
+	width:230px;
+	z-index:1;
+	padding:10px;
+	background-color: #4aaaa5;
+	font-family: Georgia, Times, Time New Roman, serif;
+	font-size: 15px;
+	color:white;
+	margin-top:355px;
+}
+
+.block5 {
+	float:left;
+	padding-bottom: 20px;
+	position:relative;
+}
+
+.text5 {
+	position:absolute;
+	text-align:center;
+	width:230px;
+	z-index:1;
+	padding:10px;
+	background-color: #4aaaa5;
+	font-family: Georgia, Times, Time New Roman, serif;
+	font-size: 15px;
+	color:white;
+	margin-top:567px;
+}
+
+.resizedTextbox {
+	height: 200px;
+	width:100% !important;
+}
+
+.inputTextbox {
+	height:25px;
+	width:100% !important;
+	overflow: scroll;
+	margin-bottom: 10px;
+}
+
+.submitButton {
+	width:20%;
+	height:35px;
+	color: white;
+	border:none;
+	margin-top:20px;
+	background-color: #4aaaa5;
+}
+
+
+.text {
+	line-height: 1.5;
+	font-size:16px;
+	text-align: left;
+	position: relative;
+}
+
+.firstParagraph {
+	line-height: 1.5;
+	font-size:16px;
+	text-align: left;
+	width:80%;
+}
+
+.profile {
+	float:left;
+	position: relative
+	margin-right:20px;
+	padding-right:15px;
+}
+
+.connect {
+	width:200px;
+	background-color: #ffffff;
+	margin-top: 100px;
+	z-index:-1;
+	float:left;
+	margin-left:50px;
+	font-family: Georgia, Times, Time New Roman, serif;
+	font-weight:bold;	
+	font-size: 15px;
+	color: #4aaaa5;;
+	padding-left:1%;
+	padding-right:1%;
+	text-align: center;
+}
+
+h3 {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.icons {
+	padding-bottom:20px;
+}
+
+.footer {
+	position:relative;
+	float:left;
+	background-color: #666666;
+	bottom:0px;
+	width: 100%;
+	height:40px;
+	text-align: center;
+	color: white;
+	font-size: 10px;;	
+	border-color:#4aaaa5;
+	border-width: 5px;
+	border-bottom: 0px;
+	border-left:0px;
+	border-right:0px;
+	border-style: solid;
+	padding-top:35px;
+	margin-top: 120px;
+}
