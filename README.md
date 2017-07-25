@@ -1,1 +1,2 @@
-# Responsive-Portfolio
+# Bootstrap-Portfolio
+Bootstrap Applied to Portfolio Page
